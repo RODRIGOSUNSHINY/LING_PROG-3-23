@@ -1,7 +1,15 @@
 <?php
-$name = "Denicreidsson"
+$name = "Denicreidsson";
 $age = 24;
+echo $name;
+echo "<br>";
+echo $age;
+echo "<hr>";
+$b = true;
+echo gettype ($b);
+echo "<hr>";
 
-echo $name . $age;
+$nasc = 1994;
+echo gettype($nasc);
 
 ?>
